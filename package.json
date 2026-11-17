@@ -1,0 +1,14 @@
+{
+  "name": "banking-account-api-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API gateway path rewriting demo for an account service",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start:gateway": "node gateway.js",
+    "start:accounts": "node account-service.js",
+    "test": "node --test"
+  }
+}
